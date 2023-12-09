@@ -23,6 +23,21 @@ namespace Movie_Diary.Controllers
             return View();
         }
 
+        public IActionResult Explore()
+        {
+            return View();
+        }
+
+        public IActionResult MyToWatchList()
+        {
+            return View();
+        }
+
+        public IActionResult MyRatingsAndReviews()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
